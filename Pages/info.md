@@ -1,8 +1,10 @@
-### Konfigurasjoner
+[**< back to main**](../index.md)
+
+## Konfigurasjoner
 
 #### Server konfigurasjon
 
-| Hva            | Verdi                    |
+|                |                          |
 | --------------:| ------------------------ |
 | Navn           | DC                       |
 | Kjerner        | 4                        |
@@ -14,7 +16,7 @@
 
 #### IP-plan
 
-| Hva         | Verdi                    |
+|             |                          |
 | -----------:| ------------------------ |
 | Type        | IPv4                     |
 | Adresse     | 10.0.0.0                 |
@@ -24,19 +26,19 @@
 | DHCP scope  | 10.0.0.100 -> 10.0.0.255 |
 | DHCP subnet | 255.0.0.0                |
 
-### Standarder
+## Standarder
 
 #### Navnestandarder
 
-| Hva                | Standard                                                           |
+|                    | Standard                                                           |
 | ------------------:| ------------------------------------------------------------------ |
 | Standard           | Hva det er med små bokstaver og underestrek i stedet for mellomrom |
 | Virtuelle maskiner | Ingen navnestandard. Skal bare være gjenkjennelig                  |
 | Servere            | Forkortelse av hovedfunksjonen, f.eks. DC for domenekontroller     |
 | Brukere            | Første tre bokstavene i for- og etternavn                          |
 
-### Rutiner
+## Rutiner
 
-| Hva                 | Rutine                                                                    |
-| ------------------- | ------------------------------------------------------------------------- |
-| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.md#Slette-bruker) |
+|                     | Rutine                                                      |
+| -------------------:| ----------------------------------------------------------- |
+| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.md) |

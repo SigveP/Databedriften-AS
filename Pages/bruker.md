@@ -1,24 +1,26 @@
-### Lage bruker
+[**< back to main**](../index.md)
 
-1. Åpne server Manager
+## Lage bruker
 
-![](Images\2022-03-15-12-35-25-image.png)
+**Åpne server Manager**
 
-2. Trykk Tools
+<img src="Images\2022-03-15-12-35-25-image.png" title="" alt="" width="512">
+
+**Trykk Tools**
 
 ![](Images\2022-03-15-12-35-50-image.png)
 
-3. Trykk Active Directory Users and Computers
+**Trykk Active Directory Users and Computers**
 
-4. Trykk på OU-en den nye brukeren hører til
+**Trykk på OU-en den nye brukeren hører til**
 
 ![](Images\2022-03-15-12-37-40-image.png)
 
-5. Høyreklikk en bruker
+**Høyreklikk en bruker**
 
-6. Trykk `Copy...`
+**Trykk `Copy...`**
 
-7. Fyll ut informasjonen til den nye brukeren
+**Fyll ut informasjonen til den nye brukeren**
 
 ![](Images\2022-03-15-12-38-36-image.png)
 
@@ -33,24 +35,24 @@ _Husk å bruke navnestandarden_
 
 [How to Create a New Active Directory User Account - Active Directory Pro](https://activedirectorypro.com/how-to-create-a-new-active-directory-user-account/)
 
-### Slette bruker
+## Slette bruker
 
-1. Åpne Excel
+**Åpne Excel**
 
-2. Skriv `Identity` i rute A1
+**Skriv `Identity` i rute A1**
 
-3. Fyll resten av A med brukerne som skal bli slettet
+**Fyll resten av A med brukerne som skal bli slettet**
 
 ![](Images\2022-03-15-12-42-51-image.png)
 
 _eksempel på hvordan det kan se ut_
 
-4. Eksporter filen som CSV
+**Eksporter filen som CSV**
 
 ![](Images\2022-03-15-12-43-21-image.png)
 
-5. Kjør PowerShell scriptet under
+**Kjør PowerShell scriptet under**
 
 ![](Images\2022-03-15-12-43-49-image.png)
 
-6. Skriv inn filbanen til CSV-filen
+**Skriv inn filbanen til CSV-filen**
