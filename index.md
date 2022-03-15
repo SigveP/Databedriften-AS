@@ -6,6 +6,4 @@ Innhold
 
 - Bruksanvisninger
   
-  - [Lage bruker](Pages/bruker.md#Lage-bruker)
-  
-  - [Slette bruker](Pages/bruker#Lage-bruker)
+  - [brukere](Pages/bruker.md)
