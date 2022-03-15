@@ -2,4 +2,6 @@
 
 - [Nettverk](nettverk.md)
 
+- [Informasjonssikkerhet](infosikkerhet.md)
+
 - [Bruksanvisninger](bruksanvisninger.md)
