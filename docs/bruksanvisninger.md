@@ -1,3 +1,3 @@
-[**< back to main**](index.md)
+[**< Tilbake**](index.md)
 
 * [Brukere](bruker.md)
