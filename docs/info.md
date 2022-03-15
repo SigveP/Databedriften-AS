@@ -4,7 +4,6 @@
 
 #### Server konfigurasjon
 
-|                |                          |
 | --------------:| ------------------------ |
 | Navn           | DC                       |
 | Kjerner        | 4                        |
@@ -16,7 +15,6 @@
 
 #### IP-plan
 
-|             |                          |
 | -----------:| ------------------------ |
 | Type        | IPv4                     |
 | Adresse     | 10.0.0.0                 |
@@ -30,7 +28,6 @@
 
 #### Navnestandarder
 
-|                    | Standard                                                           |
 | ------------------:| ------------------------------------------------------------------ |
 | Standard           | Hva det er med små bokstaver og underestrek i stedet for mellomrom |
 | Virtuelle maskiner | Ingen navnestandard. Skal bare være gjenkjennelig                  |
@@ -39,6 +36,5 @@
 
 ## Rutiner
 
-|                     | Rutine                                                      |
 | -------------------:| ----------------------------------------------------------- |
 | Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.md) |
