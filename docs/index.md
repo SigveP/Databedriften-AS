@@ -8,6 +8,6 @@
 
 **Annet innhold:**
 
-- [Informasjonssikkerhet](infosikkerhet.md)
+- [Forslag](forslag.md)
 
 - [Logg](logg.md)

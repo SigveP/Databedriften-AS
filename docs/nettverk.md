@@ -8,7 +8,7 @@ _Diagram over nettverket_
 
 ### IP-plan
 
-IP-planen kan også bli funnet under [IP-plan](info.md)
+IP-planen kan også bli funnet under [IP-plan](info.html#IP-plan)
 
 | -----------:| ------------------------ |
 | Type        | IPv4                     |
