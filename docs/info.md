@@ -1,4 +1,4 @@
-[**< back to main**](../index.md)
+[**< back to main**](index.md)
 
 ## Konfigurasjoner
 

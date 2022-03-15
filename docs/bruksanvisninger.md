@@ -1,3 +1,3 @@
-[**< back to main**](../index.md)
+[**< back to main**](index.md)
 
 * [Brukere](bruker.md)
