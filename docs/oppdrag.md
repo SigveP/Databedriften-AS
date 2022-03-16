@@ -108,7 +108,7 @@ Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md)
 
 Loggene til både server og klient kan bli funnet under [logg](logg.md), de bruker mye plass så setter de ikke under her.
 
-Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigurasjon](info.html#Server-konfigurasjon)
+Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigurasjon](info.html#server-konfigurasjon)
 
 
 | --------------:| ------------------------ |
@@ -146,7 +146,7 @@ _Forslagene er ikke gjort på serveren_
 
 > Lag en brukerveiledning slik at Databedriften AS kan lage egne brukere når det kommer en ny ansatt.
 
-Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#Lage-bruker)
+Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-bruker)
 
 ### Oppgave 5
 
@@ -164,4 +164,4 @@ Kommer snart
 
 > Sjefen ber dere om å lage en rutine for hva bedriften skal gjøre med brukere som slutter. Han er også interessert i et script for å gjøre dette i PowerShell.
 
-Rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#Rutiner)
+Rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutiner)
