@@ -29,7 +29,7 @@
 #### Navnestandarder
 
 | ------------------:| ------------------------------------------------------------------ |
-| Standard           | Hva det er med små bokstaver og underestrek i stedet for mellomrom |
+| Standard           | Hva det er, små bokstaver og understrek i stedet for mellomrom    |
 | Virtuelle maskiner | Ingen navnestandard. Skal bare være gjenkjennelig                  |
 | Servere            | Forkortelse av hovedfunksjonen, f.eks. DC for domenekontroller     |
 | Brukere            | Første tre bokstavene i for- og etternavn                          |

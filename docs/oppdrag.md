@@ -154,7 +154,7 @@ Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-b
 
 > Lag et forslag til regler/policy som Databedriften AS bør ha for å ivareta informasjonssikkerhet i sin virksomhet.
 
-Forslaget er [forslag](forslag.md) men skal flyttes hit etter hvert
+Forslaget ligger på [forslag](forslag.md) men skal flyttes hit etter hvert
 
 ### Oppgave 6
 
