@@ -123,7 +123,7 @@ Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigura
 
 #### Forslag til rettighetene til brukergrupper
 
-_Forslagene er ikke gjort på serveren_
+_Dette er bare forslag, serveren er ikke settet opp etter de._
 
 **Salg**
 
@@ -178,4 +178,12 @@ Kommer snart
 
 > Sjefen ber dere om å lage en rutine for hva bedriften skal gjøre med brukere som slutter. Han er også interessert i et script for å gjøre dette i PowerShell.
 
-Rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutiner)
+Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutiner)
+
+Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner) er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker).
+
+## Oppsummering av arbeid
+
+Har laget et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren.
+
+Lagde brukerveiledning på hvordan bedriften skal lage og slette brukere.
