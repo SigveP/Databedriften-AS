@@ -184,6 +184,8 @@ Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner) er å slet
 
 ## Oppsummering av arbeid
 
-Har laget et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren.
+Lagde en [kravliste](#oppgave-1) fra informasjonen gitt og lagde et [nettverksdiagram](#oppgave-2) og en [IP-plan](#oppgave-2) fra listen.
 
-Lagde brukerveiledning på hvordan bedriften skal lage og slette brukere.
+Brukte [VirtualBox](https://virtualbox.org) til å lage et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren. De Virtuelle maskinene var [logget](logg.md) i samtid.
+
+Lagde [brukerveiledning](bruksanvisninger.md) på hvordan bedriften skal [lage](bruker.html#lage-bruker) og [slette](bruker.html#slette-bruker) brukere.
