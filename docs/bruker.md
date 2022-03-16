@@ -56,3 +56,11 @@ _eksempel på hvordan det kan se ut_
 ![](Images\2022-03-15-12-43-49-image.png)
 
 **Skriv inn filbanen til CSV-filen**
+
+**Vent til ferdig**
+
+**Åpne filutforskeren**
+
+**Gå til** `C:\Users\home_folders\`
+
+**Slett mappene til de brukerne som ble slettet**
