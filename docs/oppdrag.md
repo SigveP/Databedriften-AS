@@ -1,3 +1,5 @@
+[**< Tilbake til forsiden**](index.md)
+
 ## Oppdrag
 
 Databedriften AS har leid nye lokaler. Databedriften har til sammen 15 ansatte. En daglig leder, to kontormedarbeidere og 12 personer som arbeider med salg og kundeoppfølging. Dere skal bistå Databedriften AS med nettverk, maskinvare og programvare.

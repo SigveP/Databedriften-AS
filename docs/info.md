@@ -1,4 +1,4 @@
-[**< Tilbake**](index.md)
+[**< Tilbake til forsiden**](index.md)
 
 ## Konfigurasjoner
 
@@ -37,4 +37,4 @@
 ## Rutiner
 
 | -------------------:| ----------------------------------------------------------- |
-| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.md) |
+| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.html#slette-bruker) |

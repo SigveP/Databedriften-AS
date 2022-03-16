@@ -1,4 +1,4 @@
-[**< Tilbake**](index.md)
+[**< Tilbake til forsiden**](index.md)
 
 ## Server logg
 

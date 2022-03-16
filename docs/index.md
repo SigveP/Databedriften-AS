@@ -2,12 +2,8 @@
 
 - [Basis informasjon](info.md)
 
-- [Nettverk](nettverk.md)
-
 - [Bruksanvisninger](bruksanvisninger.md)
 
-**Annet innhold:**
+**Annet:**
 
-- [Forslag](forslag.md)
-
-- [Logg](logg.md)
+- [Oppdrag](oppdrag.md)
