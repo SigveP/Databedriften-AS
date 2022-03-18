@@ -69,7 +69,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="Images/2022-03-16-18-45-56-image.png" title="" alt="" width="484">
 
-**Se om du har nett tilgang med å pinge**
+**Se om du har nettilgang med å pinge**
 
 <img src="Images/2022-03-16-18-48-57-image.png" title="" alt="" width="488">
 

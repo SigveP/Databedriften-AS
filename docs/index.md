@@ -2,7 +2,7 @@
 
 - [Basis informasjon](info.md)
 
-- [Bruksanvisninger](bruksanvisninger.md)
+- [Brukerveiledning](veiledning.md)
 
 **Annet:**
 
