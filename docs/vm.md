@@ -56,7 +56,7 @@
 
 **Trykk Start**
 
-![](C:\Users\sigve\source\repos\Databedriften-AS\docs\Images\2022-03-16-18-20-17-image.png)
+![](Images\2022-03-16-18-20-17-image.png)
 
 ### Gruppere virtuell maskin
 
