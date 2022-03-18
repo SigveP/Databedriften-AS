@@ -172,7 +172,7 @@ Alt hentet fra [10 Must Have IT Security Policies for Every Organization - Adser
 
 > Sjefen din har hørt om Pfsense brannmur /Router og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.Under er det et forsalg på hvordan du skal sette dem opp i virtualboxen.
 
-Kommer snart
+Brukerveiledning for pfsense [her](pfsense.md)
 
 ### Oppgave 7
 
