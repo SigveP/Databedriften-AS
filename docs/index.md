@@ -1,3 +1,5 @@
+![](Images\databedriften_as.png)
+
 **Innhold:**
 
 - [Basis informasjon](info.md)
