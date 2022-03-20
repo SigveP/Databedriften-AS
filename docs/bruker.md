@@ -1,6 +1,6 @@
 [**< Tilbake til forsiden**](index.md)
 
-## Lage bruker
+# Lage bruker
 
 **Åpne server Manager**
 
@@ -35,7 +35,7 @@ _Husk å bruke navnestandarden_
 
 [How to Create a New Active Directory User Account - Active Directory Pro](https://activedirectorypro.com/how-to-create-a-new-active-directory-user-account/)
 
-## Slette bruker
+# Slette bruker
 
 **Åpne Excel**
 

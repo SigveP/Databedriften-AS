@@ -1,6 +1,6 @@
 [**< Tilbake til forsiden**](index.md)
 
-## Oppdrag
+# Oppdrag
 
 Databedriften AS har leid nye lokaler. Databedriften har til sammen 15 ansatte. En daglig leder, to kontormedarbeidere og 12 personer som arbeider med salg og kundeoppfølging. Dere skal bistå Databedriften AS med nettverk, maskinvare og programvare.
 Hvis du er i tvil skal du ta egne forutsetninger for å kunne løse oppgavene.
@@ -19,7 +19,7 @@ Lag et forslag til rettigheter for forskjellige brukergrupper. Forklar og dokume
 
 **Oppgave 6**
 
-Sjefen din har hørt om Pfsense brannmur /Router  og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.Under er det et forsalg på hvordan du skal sette dem opp  i virtualboxen.
+Sjefen din har hørt om Pfsense brannmur /Router  og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.
 
 Lær deg følgende:
 
@@ -59,9 +59,9 @@ Lær deg følgende:
 
 Sjefen ber dere om å lage en rutine for hva bedriften skal gjøre med brukere som slutter. Han er også interessert i et script for å gjøre dette i PowerShell.  
 
-## Løsninger
+# Løsninger
 
-### Oppgave 1
+## Oppgave 1
 
 > Ta utgangspunkt i de opplysningene du har fått, og lag et forslag til behovsavklaring og kravdefinisjon som viser hvilket behov Databedriften AS har for maskinvare og programvare for å kunne bli en operativ bedrift.
 
@@ -80,7 +80,7 @@ Databedriften AS sine krav er et nettverk, maskinvare og programvare, behovet de
 | 1      | Windows server 2019 lisens | Nødvendig      | Kan byttes med 2022 |
 | 15     | Windows 10 Pro lisenser    | Burde være med | Kan byttes med 11   |
 
-### Oppgave 2
+## Oppgave 2
 
 > Lag en nettverksdokumentasjon (nettverksskisse, IP-plan etc.) for Databedriften AS sitt nettverk. Beskriv også hva de enkelte komponentene sin oppgave i nettverksskissen er.
 
@@ -90,7 +90,7 @@ Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md)
 
 **Forklaring av nettverksskissen over:** Skissen viser en sentral switch med åtte porter som er koblet til en router for nett, en server for AD, DNS og DHCP, et aksesspunkt for trådløs tilkobling og et par stasjonære maskiner. Aksesspunktet er koblet til tretten bærbare maskiner. IPv4 adressen til routeren er 10.0.0.1, serveren er 10.0.0.2 og klientmaskinene er 10.0.0.100+, switchen og aksesspunktet har ingen IP-adresse.
 
-#### IP-plan
+### IP-plan
 
 | -----------:| ------------------------ |
 | Type        | IPv4                     |
@@ -101,7 +101,7 @@ Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md)
 | DHCP scope  | 10.0.0.100 -> 10.0.0.255 |
 | DHCP subnet | 255.0.0.0                |
 
-### Oppgave 3
+## Oppgave 3
 
 > Databedriften AS har 15 personer ansatt og de har forskjellige behov. Sett opp Windows Server, nødvendige roller, opprett fellesområde, hjemmeområde, etc.
 > Det er et krav at du legger ved dokumentasjon til denne oppgaven.
@@ -121,7 +121,7 @@ Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigura
 | Tjenester      | AD DS; DNS; DHCP; backup |
 | IPv4 adresse   | 10.0.0.2/8               |
 
-#### Forslag til rettighetene til brukergrupper
+### Forslag til rettighetene til brukergrupper
 
 _Dette er bare forslag, serveren er ikke settet opp etter de._
 
@@ -143,13 +143,13 @@ _Dette er bare forslag, serveren er ikke settet opp etter de._
 
 * Tilgang til alle gruppemapper
 
-### Oppgave 4
+## Oppgave 4
 
 > Lag en brukerveiledning slik at Databedriften AS kan lage egne brukere når det kommer en ny ansatt.
 
 Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-bruker)
 
-### Oppgave 5
+## Oppgave 5
 
 > Lag et forslag til regler/policy som Databedriften AS bør ha for å ivareta informasjonssikkerhet i sin virksomhet.
 
@@ -168,13 +168,13 @@ Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-b
 
 Alt hentet fra [10 Must Have IT Security Policies for Every Organization - Adsero Security](https://www.adserosecurity.com/security-learning-center/ten-it-security-policies-every-organization-should-have/). anbefaler å gå inn dit hvis du ikke vet hva policy-ene gjør.
 
-### Oppgave 6
+## Oppgave 6
 
-> Sjefen din har hørt om Pfsense brannmur /Router og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.Under er det et forsalg på hvordan du skal sette dem opp i virtualboxen.
+> Sjefen din har hørt om Pfsense brannmur /Router og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.
 
 Brukerveiledning for pfsense [her](pfsense.md)
 
-### Oppgave 7
+## Oppgave 7
 
 > Sjefen ber dere om å lage en rutine for hva bedriften skal gjøre med brukere som slutter. Han er også interessert i et script for å gjøre dette i PowerShell.
 
@@ -182,7 +182,7 @@ Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutine
 
 Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner) er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker).
 
-## Oppsummering av arbeid
+# Oppsummering av arbeid
 
 Lagde en [kravliste](#oppgave-1) fra informasjonen gitt og lagde et [nettverksdiagram](#oppgave-2) og en [IP-plan](#oppgave-2) fra listen.
 

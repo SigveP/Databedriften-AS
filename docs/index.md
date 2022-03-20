@@ -9,3 +9,5 @@
 **Annet:**
 
 - [Oppdrag](oppdrag.md)
+
+- [Logg](logg.md)

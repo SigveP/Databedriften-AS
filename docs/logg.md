@@ -1,6 +1,6 @@
 [**< Tilbake til forsiden**](index.md)
 
-## Server logg
+# Server logg
 
 * Satt opp en VM
   * Navn: `Databedriften AS`
@@ -142,7 +142,7 @@
   * Valgte Edit på Default Domain Policy
   * Valgte Enabled på Prohibit access to Control Panel and PC settings
 
-## Klient logg
+# Klient logg
 
 * Satt opp en VM
   * Navn: `Klient`

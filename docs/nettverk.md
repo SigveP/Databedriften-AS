@@ -1,12 +1,12 @@
 [**< Tilbake til forsiden**](index.md)
 
-### Nettverk
+## Nettverk
 
 ![](Images\2022-03-15-14-02-17-image.png)
 
 _Diagram over nettverket_
 
-### IP-plan
+## IP-plan
 
 IP-planen kan også bli funnet under [IP-plan](info.html#IP-plan)
 

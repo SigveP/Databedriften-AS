@@ -1,10 +1,10 @@
 [**< Tilbake til forsiden**](index.md)
 
-## VirtualBox
+# VirtualBox
 
 <img src="Images/2022-03-16-18-23-01-image.png" title="" alt="" width="508">
 
-### Installasjon av VirtualBox
+## Installasjon av VirtualBox
 
 **Gå inn på [https://virtualbox.org](https://virtualbox.org)**
 
@@ -20,7 +20,7 @@
 
 **Velg innstillingene du vil ha**
 
-### Lage virtuell maskin
+## Lage virtuell maskin
 
 **Trykk New**
 
@@ -58,7 +58,7 @@
 
 ![](Images\2022-03-16-18-20-17-image.png)
 
-### Gruppere virtuell maskin
+## Gruppere virtuell maskin
 
 **Høyreklikk maskinen**
 
@@ -76,13 +76,13 @@
 
 <img src="Images/2022-03-16-17-55-34-image.png" title="" alt="" width="459">
 
-## Konfigurasjon av virtuell maskin
+# Konfigurasjon av virtuell maskin
 
 **Gå inn på innstillingene til maskinen**
 
 <img src="Images/2022-03-16-18-00-52-image.png" title="" alt="" width="450">
 
-### Nettverk
+## Nettverk
 
 **Velg Network på sidemenyen**
 
@@ -104,7 +104,7 @@ _Tabell over vanlige VirtualBox nettverk_
 
 <img title="" src="Images/2022-03-16-18-07-12-image.png" alt="" width="473">
 
-### Harddisk
+## Harddisk
 
 **Velg Storage fra sidemenyen**
 
@@ -120,7 +120,7 @@ _Tabell over vanlige VirtualBox nettverk_
 
 **Etter du er ferdig med å lage harddisken trykk Choose**
 
-### Minne og kjerner
+## Minne og kjerner
 
 **Velg System fra sidemenyen**
 

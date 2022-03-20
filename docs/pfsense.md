@@ -1,14 +1,14 @@
 [**< Tilbake til forsiden**](index.md)
 
-## pfsense
+# pfsense
 
-<img src="Images/2022-03-16-18-23-19-image.png" title="" alt="" width="535">
+<img title="" src="Images/2022-03-20-08-36-52-image.png" alt="" width="637">
 
-### Installasjon på virtuell maskin
+## Installasjon på virtuell maskin
 
 Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i VirtualBox. Hvis du ikke vet hvordan man setter opp en virtuell maskin i VirtualBox følg [denne siden](vm.md)
 
-#### Nedlasting av iso-fil
+### Nedlasting av iso-fil
 
 **Gå inn på [www.pfsense.org/](https://www.pfsense.org/)**
 
@@ -24,7 +24,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Velg installasjonsplassering**
 
-#### Lage virtuell maskin
+### Lage virtuell maskin
 
 **Lag en ny maskin med innstillingene i tabellen**
 
@@ -63,7 +63,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="Images/2022-03-16-18-43-45-image.png" title="" alt="" width="484">
 
-#### Oppsett av pfsense
+### Oppsett av pfsense
 
 **Start maskinen**
 
@@ -107,7 +107,45 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="Images/2022-03-16-19-00-13-image.png" title="" alt="" width="500">
 
-### Sette opp DHCP
+### Endre dashboardet
+
+**Gå inn på Status/Dashboard**
+
+<img title="" src="Images/2022-03-20-08-36-52-image.png" alt="" width="560">
+
+#### Legge inn
+
+**Trykk Pluss**
+
+<img src="Images/2022-03-20-08-43-44-image.png" title="" alt="" width="249">
+
+**Velg hva du skal legge inn**
+
+![](Images\2022-03-20-08-44-17-image.png)
+
+#### Fjerne
+
+**Trykk krysset i høyre hjørnet**
+
+<img src="Images/2022-03-20-08-52-01-image.png" title="" alt="" width="519">
+
+#### Flytte
+
+**Hold venstreklikk på det du skal flytte**
+
+**Dra det dit det skal**
+
+<img src="Images/2022-03-20-08-48-42-image.png" title="" alt="" width="518">
+
+<img src="Images/2022-03-20-08-49-20-image.png" title="" alt="" width="516">
+
+#### Lagre
+
+**Trykk disken** (Den kommer bare opp hvis dashboardet er endret)
+
+![](Images\2022-03-20-08-54-57-image.png)
+
+## Sette opp DHCP
 
 **Gå inn på Services/DHCP Server**
 
@@ -117,13 +155,13 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="Images/2022-03-16-19-05-39-image.png" title="" alt="" width="412">
 
-**Sett opp innstillingene som du vil ha de f.eks. endre scopet**
+**Sett opp innstillingene som du vil ha, kan f.eks. endre scopet**
 
 <img src="Images/2022-03-16-19-04-03-image.png" title="" alt="" width="514">
 
 **Trykk Save når du er ferdig**
 
-### Lage brukere
+## Lage brukere
 
 **Gå inn på System/User Manager/Users**
 
@@ -149,7 +187,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="Images/2022-03-16-19-17-15-image.png" title="" alt="" width="492">
 
-### Lage grupper
+## Lage grupper
 
 **Gå inn på System/User Manager/Groups**
 
@@ -176,3 +214,132 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 <img src="Images/2022-03-16-19-21-07-image.png" title="" alt="" width="506">
 
 **Trykk Save**
+
+## Lage brannmur regler
+
+**Gå inn på Firewall/Rules/** *interface*
+
+<img src="Images/2022-03-20-08-16-42-image.png" title="" alt="" width="500">
+
+**Trykk Add**
+
+![](Images\2022-03-20-08-18-06-image.png)
+
+**Lag en regel**
+
+**Eksempel**
+
+* <img title="" src="Images/2022-03-20-08-31-08-image.png" alt="" width="500">
+
+* <img title="" src="Images/2022-03-20-08-30-51-image.png" alt="" width="498">
+
+* <img src="Images/2022-03-20-08-23-30-image.png" title="" alt="" width="494">
+
+**Trykk save**
+
+**Trykk Apply Changes**
+
+<img src="Images/2022-03-20-08-24-10-image.png" title="" alt="" width="522">
+
+## Captive Portal
+
+**Gå inn på Services/Captive Portal**
+
+<img src="Images/2022-03-19-14-26-33-image.png" title="" alt="" width="503">
+
+**Trykk Add**
+
+**Fyll ut navn og beskrivelse**
+
+**Trykk Save & Continue**
+
+<img src="Images/2022-03-19-14-29-43-image.png" title="" alt="" width="497">
+
+**Skru på Captive Portal-en**
+
+**Velg interface**
+
+<img src="Images/2022-03-19-14-31-00-image.png" title="" alt="" width="496">
+
+**Velg innstillingen du vil ha**
+
+**Eksempel:**
+
+* <img src="Images/2022-03-19-14-32-11-image.png" title="" alt="" width="494">
+
+* <img src="Images/2022-03-19-14-35-17-image.png" title="" alt="" width="495">
+
+* <img src="Images/2022-03-19-15-15-28-image.png" title="" alt="" width="509">
+
+**Velg autentifiseringsserver** (Velg Authentication method None, hvis du ikke skal ha autentifisering)
+
+<img title="" src="Images/2022-03-19-15-24-19-image.png" alt="" width="526">
+
+**Trykk Save**
+
+<img src="Images/2022-03-19-15-05-46-image.png" title="" alt="" width="523">
+
+**Se om du kan logge inn**
+
+<img src="Images/2022-03-19-15-25-35-image.png" title="" alt="" width="518">
+
+## Vidresending av port med NAT
+
+**Gå inn på Firewall/NAT/Port Forward**
+
+**Trykk Add**
+
+<img src="Images/2022-03-19-15-32-43-image.png" title="" alt="" width="512">
+
+**Velg innstillingen du vil ha**
+
+**Eksempel**
+
+<img src="Images/2022-03-20-14-07-18-image.png" title="" alt="" width="510">
+
+**Lagre**
+
+**Trykk Apply Changes**
+
+<img src="Images/2022-03-19-15-42-14-image.png" title="" alt="" width="509">
+
+## L2TP/IPsec
+
+### L2TP
+
+**Gå til VPN/L2TP/Configuration**
+
+**Skru på L2TP**
+
+<img src="Images/2022-03-20-14-10-17-image.png" title="" alt="" width="531">
+
+**Velg konfigurasjon**
+
+<img title="" src="Images/2022-03-20-14-14-03-image.png" alt="" width="525">
+
+**Trykk Save**
+
+#### Lage L2TP brukere
+
+**Gå til VPN/L2TP/Users**
+
+<img src="Images/2022-03-20-14-25-12-image.png" title="" alt="" width="519">
+
+**Trykk Add**
+
+**Fyll brukernavn, passord og IP-adresse**
+
+**Trykk Save**
+
+<img src="Images/2022-03-20-14-26-36-image.png" title="" alt="" width="520">
+
+### IPsec
+
+**Gå inn på VPN/IPsec/Tunnels**
+
+**Trykk Add P1**
+
+<img src="Images/2022-03-20-14-28-41-image.png" title="" alt="" width="509">
+
+**...**
+**Legger til mer senere**
