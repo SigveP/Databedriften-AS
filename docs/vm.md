@@ -2,17 +2,17 @@
 
 # VirtualBox
 
-<img src="Images/2022-03-16-18-23-01-image.png" title="" alt="" width="508">
+<img src="images/virtualbox_overview.png" title="" alt="" width="508">
 
 ## Installasjon av VirtualBox
 
 **Gå inn på [https://virtualbox.org](https://virtualbox.org)**
 
-<img src="Images/2022-03-16-17-40-40-image.png" title="" alt="" width="509">
+<img src="images/virtualbox_website.png" title="" alt="" width="509">
 
 **Trykk Download VirtualBox**
 
-<img title="" src="Images/2022-03-16-17-41-47-image.png" alt="" width="382">
+<img title="" src="images/virtualbox_website_download.png" alt="" width="382">
 
 **Trykk operativsystemet du bruker**
 
@@ -24,39 +24,39 @@
 
 **Trykk New**
 
-<img src="Images/2022-03-16-17-46-49-image.png" title="" alt="" width="544">
+<img src="images/virtualbox.png" title="" alt="" width="544">
 
 **Velg Expert Mode**
 
-<img src="Images/2022-03-16-17-47-41-image.png" title="" alt="" width="456">
+<img src="images/virtualbox_create_vm_0.png" title="" alt="" width="456">
 
 **Fyll ut navn, plassering, operativsystem og minne**
 
 **Trykk Create**
 
-<img src="Images/2022-03-16-17-49-19-image.png" title="" alt="" width="454">
+<img src="images/virtualbox_create_vm_1.png" title="" alt="" width="454">
 
 **Velg harddisk størrelse**
 
 **Trykk Create**
 
-<img src="Images/2022-03-16-17-50-18-image.png" title="" alt="" width="450">
+<img src="images/virtualbox_create_vm_2.png" title="" alt="" width="450">
 
 **Trykk på den tomme "IDE device"-en under storage**
 
 **Trykk Choose a disk file...**
 
-<img src="Images/2022-03-16-17-57-41-image.png" title="" alt="" width="468">
+<img src="images/virtualbox_add_os_0.png" title="" alt="" width="468">
 
 **Velg en iso-fil og trykk åpne**
 
-<img title="" src="Images/2022-03-16-17-58-47-image.png" alt="" width="485">
+<img title="" src="images/virtualbox_add_os_1.png" alt="" width="485">
 
 **Konfigurer andre ting du trenger på maskinen f.eks. nettverk og lagring**
 
 **Trykk Start**
 
-![](Images\2022-03-16-18-20-17-image.png)
+![](Images\virtualbox_start.png)
 
 ## Gruppere virtuell maskin
 
@@ -64,29 +64,29 @@
 
 **Trykk Group**
 
-<img src="Images/2022-03-16-17-53-03-image.png" title="" alt="" width="469">
+<img src="images/virtualbox_group_0.png" title="" alt="" width="469">
 
 **Høyreklikk gruppen**
 
 **Trykk Rename Group...**
 
-<img src="Images/2022-03-16-17-54-36-image.png" title="" alt="" width="462">
+<img src="images/virtualbox_group_1.png" title="" alt="" width="462">
 
 **Skriv inn nytt navn og trykk enter**
 
-<img src="Images/2022-03-16-17-55-34-image.png" title="" alt="" width="459">
+<img src="images/virtualbox_group_2.png" title="" alt="" width="459">
 
 # Konfigurasjon av virtuell maskin
 
 **Gå inn på innstillingene til maskinen**
 
-<img src="Images/2022-03-16-18-00-52-image.png" title="" alt="" width="450">
+<img src="images/virtualbox_settings.png" title="" alt="" width="450">
 
 ## Nettverk
 
 **Velg Network på sidemenyen**
 
-![](Images\2022-03-16-18-01-27-image.png)
+![](Images\virtualbox_network_0.png)
 
 **Velg hvilke type nettverk du skal ha**
 
@@ -102,19 +102,19 @@ _Tabell over vanlige VirtualBox nettverk_
 
 **Legg til flere adaptere hvis du trenger**
 
-<img title="" src="Images/2022-03-16-18-07-12-image.png" alt="" width="473">
+<img title="" src="images/virtualbox_network_1.png" alt="" width="473">
 
 ## Harddisk
 
 **Velg Storage fra sidemenyen**
 
-<img src="Images/2022-03-16-18-13-46-image.png" title="" alt="" width="470">
+<img src="images/virtualbox_storage_0.png" title="" alt="" width="470">
 
 **Trykk harddisken med +**
 
 **Trykk Create**
 
-<img src="Images/2022-03-16-18-15-46-image.png" title="" alt="" width="473">
+<img src="images/virtualbox_storage_1.png" title="" alt="" width="473">
 
 **Velg innstillingene du vil ha**
 
@@ -126,10 +126,10 @@ _Tabell over vanlige VirtualBox nettverk_
 
 **Velg hvor mye ram du skal ha**
 
-<img src="Images/2022-03-16-18-17-55-image.png" title="" alt="" width="529">
+<img src="images/virtualbox_ram.png" title="" alt="" width="529">
 
 **Trykk Processor**
 
 **Velg hvor mange kjerner du vil ha**
 
-<img src="Images/2022-03-16-18-19-21-image.png" title="" alt="" width="524">
+<img src="images/virtualbox_cores.png" title="" alt="" width="524">

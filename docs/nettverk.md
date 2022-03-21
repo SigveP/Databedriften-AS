@@ -2,7 +2,7 @@
 
 ### Nettverk
 
-![](Images\2022-03-15-14-02-17-image.png)
+![](Images\network_diagram.png)
 
 _Diagram over nettverket_
 

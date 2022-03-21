@@ -2,7 +2,7 @@
 
 # pfsense
 
-<img title="" src="Images/2022-03-20-08-36-52-image.png" alt="" width="637">
+<img title="" src="images/pfsense_overview.png" alt="" width="637">
 
 ## Installasjon på virtuell maskin
 
@@ -14,13 +14,13 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Download**
 
-<img src="Images/2022-03-16-18-32-35-image.png" title="" alt="" width="573">
+<img src="images/pfsense_website.png" title="" alt="" width="573">
 
 **Velg installasjons innstillingene du trenger**
 
 **Trykk Download**
 
-<img src="Images/2022-03-16-18-33-24-image.png" title="" alt="" width="444">
+<img src="images/pfsense_website_download.png" title="" alt="" width="444">
 
 **Velg installasjonsplassering**
 
@@ -37,7 +37,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Vent til du kan se copyright siden** 
 
-<img src="Images/2022-03-16-18-38-06-image.png" title="" alt="" width="474">
+<img src="images/pfsense_copyright.png" title="" alt="" width="474">
 
 **Trykk enter på Accept**
 
@@ -49,7 +49,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Velg Auto (UFS) BIOS**
 
-<img src="Images/2022-03-16-18-40-18-image.png" title="" alt="" width="482">
+<img src="images/pfsense_installation.png" title="" alt="" width="482">
 
 **Vent til ferdig**
 
@@ -61,43 +61,43 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Fjern iso-filen**
 
-<img src="Images/2022-03-16-18-43-45-image.png" title="" alt="" width="484">
+<img src="images/pfsense_rm_disk.png" title="" alt="" width="484">
 
 ### Oppsett av pfsense
 
 **Start maskinen**
 
-<img src="Images/2022-03-16-18-45-56-image.png" title="" alt="" width="484">
+<img src="images/pfsense_terminal.png" title="" alt="" width="484">
 
 **Se om du har nettilgang med å pinge**
 
-<img src="Images/2022-03-16-18-48-57-image.png" title="" alt="" width="488">
+<img src="images/pfsense_ping.png" title="" alt="" width="488">
 
 **Lag en ny virtuell maskin med kobling til det interne nettveket**
 
-<img src="Images/2022-03-16-18-51-23-image.png" title="" alt="" width="488">
+<img src="images/client_vm.png" title="" alt="" width="488">
 
 **Åpne en nettleser**
 
 **Gå inn på 192.168.1.1** (hvis ikke endret)
 
-<img src="Images/2022-03-16-18-55-12-image.png" title="" alt="" width="504">
+<img src="images/pfsense_webconfig_0.png" title="" alt="" width="504">
 
 **Trykk Advanced...**
 
 **Trykk Accept the Risk and Continue**
 
-<img src="Images/2022-03-16-18-55-58-image.png" title="" alt="" width="504">
+<img src="images/pfsense_webconfig_1.png" title="" alt="" width="504">
 
 **Logg inn med brukernavn "admin" og passord "pfsense"**
 
-<img src="Images/2022-03-16-18-57-09-image.png" title="" alt="" width="502">
+<img src="images/pfsense_webconfig_2.png" title="" alt="" width="502">
 
 **Trykk Next et par ganger**
 
 **Skriv inn et domenet**
 
-<img src="Images/2022-03-16-18-58-12-image.png" title="" alt="" width="502">
+<img src="images/pfsense_webconfig_3.png" title="" alt="" width="502">
 
 **Trykk Next**
 
@@ -105,29 +105,29 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk deg gjennom oppsettet**
 
-<img src="Images/2022-03-16-19-00-13-image.png" title="" alt="" width="500">
+<img src="images/pfsense_webconfig_4.png" title="" alt="" width="500">
 
 ### Endre dashboardet
 
 **Gå inn på Status/Dashboard**
 
-<img title="" src="Images/2022-03-20-08-36-52-image.png" alt="" width="560">
+<img title="" src="images/pfsense_overview.png" alt="" width="560">
 
 #### Legge inn
 
 **Trykk Pluss**
 
-<img src="Images/2022-03-20-08-43-44-image.png" title="" alt="" width="249">
+<img src="images/pfsense_dashboard_0.png" title="" alt="" width="249">
 
 **Velg hva du skal legge inn**
 
-![](Images\2022-03-20-08-44-17-image.png)
+![](Images\pfsense_dashboard_1.png)
 
 #### Fjerne
 
 **Trykk krysset i høyre hjørnet**
 
-<img src="Images/2022-03-20-08-52-01-image.png" title="" alt="" width="519">
+<img src="images/pfsense_dashboard_4.png" title="" alt="" width="519">
 
 #### Flytte
 
@@ -135,29 +135,29 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Dra det dit det skal**
 
-<img src="Images/2022-03-20-08-48-42-image.png" title="" alt="" width="518">
+<img src="images/pfsense_dashboard_2.png" title="" alt="" width="518">
 
-<img src="Images/2022-03-20-08-49-20-image.png" title="" alt="" width="516">
+<img src="images/pfsense_dashboard_3.png" title="" alt="" width="516">
 
 #### Lagre
 
 **Trykk disken** (Den kommer bare opp hvis dashboardet er endret)
 
-![](Images\2022-03-20-08-54-57-image.png)
+![](Images\pfsense_dashboard_5.png)
 
 ## Sette opp DHCP
 
 **Gå inn på Services/DHCP Server**
 
-<img src="Images/2022-03-16-19-01-44-image.png" title="" alt="" width="335">
+<img src="images/pfsense_dhcp_0.png" title="" alt="" width="335">
 
 **Se om DHCP er på**
 
-<img src="Images/2022-03-16-19-05-39-image.png" title="" alt="" width="412">
+<img src="images/pfsense_dhcp_2.png" title="" alt="" width="412">
 
 **Sett opp innstillingene som du vil ha, kan f.eks. endre scopet**
 
-<img src="Images/2022-03-16-19-04-03-image.png" title="" alt="" width="514">
+<img src="images/pfsense_dhcp_1.png" title="" alt="" width="514">
 
 **Trykk Save når du er ferdig**
 
@@ -165,7 +165,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Gå inn på System/User Manager/Users**
 
-<img src="Images/2022-03-16-19-07-36-image.png" title="" alt="" width="497">
+<img src="images/pfsense_user_0.png" title="" alt="" width="497">
 
 **Trykk Add**
 
@@ -173,11 +173,11 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Save**
 
-<img src="Images/2022-03-16-19-10-36-image.png" title="" alt="" width="497">
+<img src="images/pfsense_user_1.png" title="" alt="" width="497">
 
 **Trykk pennen ved siden av den nye brukeren**
 
-<img src="Images/2022-03-16-19-15-46-image.png" title="" alt="" width="496">
+<img src="images/pfsense_user_2.png" title="" alt="" width="496">
 
 **Bla ned til Effective Privileges og trykke Add**
 
@@ -185,25 +185,25 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Save**
 
-<img src="Images/2022-03-16-19-17-15-image.png" title="" alt="" width="492">
+<img src="images/pfsense_user_3.png" title="" alt="" width="492">
 
 ## Lage grupper
 
 **Gå inn på System/User Manager/Groups**
 
-<img src="Images/2022-03-16-19-12-22-image.png" title="" alt="" width="504">
+<img src="images/pfsense_group_0.png" title="" alt="" width="504">
 
 **Trykk Add**
 
 **Gi navn, beskrivelse og brukere**
 
-<img src="Images/2022-03-16-19-14-20-image.png" title="" alt="" width="503">
+<img src="images/pfsense_group_1.png" title="" alt="" width="503">
 
 **Trykk save**
 
 **Trykk pennen ved siden av den nye gruppen**
 
-<img src="Images/2022-03-16-19-19-49-image.png" title="" alt="" width="504">
+<img src="images/pfsense_group_2.png" title="" alt="" width="504">
 
 **Bla ned til Assigned Privileges**
 
@@ -211,7 +211,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Velg tilgangene alle i gruppen skal ha**
 
-<img src="Images/2022-03-16-19-21-07-image.png" title="" alt="" width="506">
+<img src="images/pfsense_group_3.png" title="" alt="" width="506">
 
 **Trykk Save**
 
@@ -219,33 +219,33 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Gå inn på Firewall/Rules/** *interface*
 
-<img src="Images/2022-03-20-08-16-42-image.png" title="" alt="" width="500">
+<img src="images/pfsense_firewall_0.png" title="" alt="" width="500">
 
 **Trykk Add**
 
-![](Images\2022-03-20-08-18-06-image.png)
+![](Images\pfsense_firewall_1.png)
 
 **Lag en regel**
 
 **Eksempel**
 
-* <img title="" src="Images/2022-03-20-08-31-08-image.png" alt="" width="500">
+* <img title="" src="images/pfsense_firewall_4.png" alt="" width="500">
 
-* <img title="" src="Images/2022-03-20-08-30-51-image.png" alt="" width="498">
+* <img title="" src="images/pfsense_firewall_5.png" alt="" width="498">
 
-* <img src="Images/2022-03-20-08-23-30-image.png" title="" alt="" width="494">
+* <img src="images/pfsense_firewall_2.png" title="" alt="" width="494">
 
 **Trykk save**
 
 **Trykk Apply Changes**
 
-<img src="Images/2022-03-20-08-24-10-image.png" title="" alt="" width="522">
+<img src="images/pfsense_firewall_3.png" title="" alt="" width="522">
 
 ## Captive Portal
 
 **Gå inn på Services/Captive Portal**
 
-<img src="Images/2022-03-19-14-26-33-image.png" title="" alt="" width="503">
+<img src="images/pfsense_captive_portal_0.png" title="" alt="" width="503">
 
 **Trykk Add**
 
@@ -253,35 +253,35 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Save & Continue**
 
-<img src="Images/2022-03-19-14-29-43-image.png" title="" alt="" width="497">
+<img src="images/pfsense_captive_portal_1.png" title="" alt="" width="497">
 
 **Skru på Captive Portal-en**
 
 **Velg interface**
 
-<img src="Images/2022-03-19-14-31-00-image.png" title="" alt="" width="496">
+<img src="images/pfsense_captive_portal_2.png" title="" alt="" width="496">
 
 **Velg innstillingen du vil ha**
 
 **Eksempel:**
 
-* <img src="Images/2022-03-19-14-32-11-image.png" title="" alt="" width="494">
+* <img src="images/pfsense_captive_portal_3.png" title="" alt="" width="494">
 
-* <img src="Images/2022-03-19-14-35-17-image.png" title="" alt="" width="495">
+* <img src="images/pfsense_captive_portal_4.png" title="" alt="" width="495">
 
-* <img src="Images/2022-03-19-15-15-28-image.png" title="" alt="" width="509">
+* <img src="images/pfsense_captive_portal_6.png" title="" alt="" width="509">
 
 **Velg autentifiseringsserver** (Velg Authentication method None, hvis du ikke skal ha autentifisering)
 
-<img title="" src="Images/2022-03-19-15-24-19-image.png" alt="" width="526">
+<img title="" src="images/pfsense_captive_portal_7.png" alt="" width="526">
 
 **Trykk Save**
 
-<img src="Images/2022-03-19-15-05-46-image.png" title="" alt="" width="523">
+<img src="images/pfsense_captive_portal_5.png" title="" alt="" width="523">
 
 **Se om du kan logge inn**
 
-<img src="Images/2022-03-19-15-25-35-image.png" title="" alt="" width="518">
+<img src="images/pfsense_captive_portal_8.png" title="" alt="" width="518">
 
 ## Vidresending av port med NAT
 
@@ -289,19 +289,19 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Add**
 
-<img src="Images/2022-03-19-15-32-43-image.png" title="" alt="" width="512">
+<img src="images/pfsense_nat_0.png" title="" alt="" width="512">
 
 **Velg innstillingen du vil ha**
 
 **Eksempel**
 
-<img src="Images/2022-03-20-14-07-18-image.png" title="" alt="" width="510">
+<img src="images/pfsense_nat_2.png" title="" alt="" width="510">
 
 **Lagre**
 
 **Trykk Apply Changes**
 
-<img src="Images/2022-03-19-15-42-14-image.png" title="" alt="" width="509">
+<img src="images/pfsense_nat_1.png" title="" alt="" width="509">
 
 ## L2TP/IPsec
 
@@ -311,11 +311,11 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Skru på L2TP**
 
-<img src="Images/2022-03-20-14-10-17-image.png" title="" alt="" width="531">
+<img src="images/pfsense_ltwotp_0.png" title="" alt="" width="531">
 
 **Velg konfigurasjon**
 
-<img title="" src="Images/2022-03-20-14-14-03-image.png" alt="" width="525">
+<img title="" src="images/pfsense_ltwotp_0_1.png" alt="" width="525">
 
 **Trykk Save**
 
@@ -323,7 +323,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Gå til VPN/L2TP/Users**
 
-<img src="Images/2022-03-20-14-25-12-image.png" title="" alt="" width="519">
+<img src="images/pfsense_ltwotp_2.png" title="" alt="" width="519">
 
 **Trykk Add**
 
@@ -331,7 +331,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Save**
 
-<img src="Images/2022-03-20-14-26-36-image.png" title="" alt="" width="520">
+<img src="images/pfsense_ltwotp_3.png" title="" alt="" width="520">
 
 ### IPsec
 
@@ -339,7 +339,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Add P1**
 
-<img src="Images/2022-03-20-14-28-41-image.png" title="" alt="" width="509">
+<img src="images/pfsense_ipsec_0.png" title="" alt="" width="509">
 
 **...**
 **Legger til mer senere**
