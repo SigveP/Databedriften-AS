@@ -315,7 +315,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Velg konfigurasjon**
 
-<img title="" src="images/pfsense_ltwotp_0_1.png" alt="" width="525">
+<img title="" src="images/pfsense_ltwotp_1.png" alt="" width="525">
 
 **Trykk Save**
 
@@ -341,5 +341,64 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="images/pfsense_ipsec_0.png" title="" alt="" width="509">
 
-**...**
-**Legger til mer senere**
+**Velg innstillingene du skal ha**
+
+**Eksempel**
+
+* <img src="images/pfsense_ipsec_1.png" title="" alt="" width="511">
+
+* <img title="" src="images/pfsense_ipsec_3.png" alt="" width="532">
+
+* <img src="images/pfsense_ipsec_2.png" title="" alt="" width="545">
+
+**Trykk save**
+
+**Trykk Apply Changes**
+
+<img src="images/pfsense_ipsec_4.png" title="" alt="" width="577">
+
+## System
+
+### Sikkerhetskopiering
+
+**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
+
+<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
+
+**Velg hva du vil sikkerhetkopiere**
+
+**Trykk Download configuration as XML**
+
+**Lagre filen et trygt sted**
+
+<img src="images/pfsense_backup.png" title="" alt="" width="551">
+
+### Gjennoppretting
+
+**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
+
+<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
+
+**Bla ned**
+
+**Trykk Browse...**
+
+**Velg en gjennopprettingsfil**
+
+**Velg samme Restore area som filen**
+
+**(Velg kryptering hvis filen er kryptert)**
+
+**Trykk Restore Configuration**
+
+<img src="images/pfsense_restore.png" title="" alt="" width="551">
+
+### Oppgradering
+
+**Gå inn på System/Update/System Update**
+
+<img src="images/pfsense_update_0.png" title="" alt="" width="403">
+
+**Trykk Confirm** (hvis tilgjengelig)
+
+<img src="images/pfsense_update_1.png" title="" alt="" width="513">
