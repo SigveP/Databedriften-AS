@@ -133,11 +133,15 @@ _Dette er bare forslag, serveren er ikke settet opp etter de._
 
 * Kan ikke bytte bakgrunn
 
+* Kan bare logge på i arbeidstid
+
 **Kontormedarbeidere**
 
 * Tilgang til egen gruppemappe
 
 * Ikke tilgang til kontrollpanel
+
+* Kan bare logge på i arbeidstid
 
 **Daglig leder**
 
@@ -153,20 +157,18 @@ Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-b
 
 > Lag et forslag til regler/policy som Databedriften AS bør ha for å ivareta informasjonssikkerhet i sin virksomhet.
 
-| Policy forslag                                                     |
-| ------------------------------------------------------------------ |
-| Acceptable Use Policy                                              |
-| Security Awareness and Training Policy                             |
-| Change Management Policy                                           |
-| Incident Response Policy                                           |
-| Remote Access Policy                                               |
-| Vendor Management Policy                                           |
-| Password Creation and Management Policy                            |
-| Network Security Policy                                            |
-| Access Authorization, Modification, and Identity Access Management |
-| Data Retention Policy                                              |
-
-Alt hentet fra [10 Must Have IT Security Policies for Every Organization - Adsero Security](https://www.adserosecurity.com/security-learning-center/ten-it-security-policies-every-organization-should-have/). anbefaler å gå inn dit hvis du ikke vet hva policy-ene gjør.
+| Policy/Regler              | Behandling                                                                                |
+| -------------------------- | ----------------------------------------------------------------------------------------- |
+| Nettverk                   | Skal ikke kunne besøke irrelevante sider og tjenester, som f.eks. spill sider og servere. |
+| Nedlasting                 | Skal bare kunne laste ned fra bedriftens egene og betalte sider                           |
+| Passord                    | Burde bruke fulle setninger som inneholder tall og tegn                                   |
+| Ved virus (klientmaskin)   | Skal koble fra nettverket og kontakte hjelp                                               |
+| Ved virus (tjenestemaskin) | Skal laste inn en backup                                                                  |
+| Data                       | Skal bare lagre nødvendig data                                                            |
+| Maskiner                   | Burde skrive ned navn, type, operativsystem og funksjon                                   |
+| Tilgang til server         | Bare de i bedriften som kan og jobber med det                                             |
+| Ved feil (liten)           | Burde skrives ned og fikset                                                               |
+| Ved feil (stor)            | Skal skrives ned, sett på av flere og fikset                                              |
 
 ## Oppgave 6
 
@@ -191,10 +193,12 @@ Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutine
 
 Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner){:target="_blank"} er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker){:target="_blank"}.
 
+Scriptet til sletting av brukere er ikke inkludert på serveren så det må skrives eller lastes ned. Et bilde av scriptet er tilgjengelig på [slette siden](bruker.html#slette-bruker){:target="_blank"}.
+
 # Oppsummering av arbeid
 
 Lagde en [kravliste](#oppgave-1) fra informasjonen gitt og lagde et [nettverksdiagram](#oppgave-2) og en [IP-plan](#oppgave-2) fra listen.
 
 Brukte [VirtualBox](https://virtualbox.org) til å lage et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren. De Virtuelle maskinene var [logget](logg.md){:target="_blank"} i samtid.
 
-Lagde [brukerveiledninger](veiledning.md){:target="_blank"} på hvordan bedriften skal [lage](bruker.html#lage-bruker){:target="_blank"} og [slette](bruker.html#slette-bruker){:target="_blank"} brukere.
+Lagde [brukerveiledninger](veiledning.md){:target="_blank"} på hvordan bedriften skal [lage](bruker.html#lage-bruker){:target="_blank"}, [slette](bruker.html#slette-bruker){:target="_blank"} brukere og hvordan kan sette opp en liten [pfsense](pfsense.md){:target="_blank"} lab i [VirtualBox](vm.md){:target="_blank"}.
