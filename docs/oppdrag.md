@@ -86,7 +86,7 @@ Databedriften AS sine krav er et nettverk, maskinvare og programvare, behovet de
 
 Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md){:target="_blank"}
 
-![](Images\network_diagram.png)
+![](images\network_diagram.png)
 
 **Forklaring av nettverksskissen over:** Skissen viser en sentral switch med åtte porter som er koblet til en router for nett, en server for AD, DNS og DHCP, et aksesspunkt for trådløs tilkobling og et par stasjonære maskiner. Aksesspunktet er koblet til tretten bærbare maskiner. IPv4 adressen til routeren er 10.0.0.1, serveren er 10.0.0.2 og klientmaskinene er 10.0.0.100+, switchen og aksesspunktet har ingen IP-adresse.
 

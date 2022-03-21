@@ -2,7 +2,7 @@
 
 ### Nettverk
 
-![](Images\network_diagram.png)
+![](images\network_diagram.png)
 
 _Diagram over nettverket_
 

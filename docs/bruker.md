@@ -4,17 +4,17 @@
 
 **Åpne server Manager**
 
-<img src="Images\win_server_mngr.png" title="" alt="" width="512">
+<img src="images\win_server_mngr.png" title="" alt="" width="512">
 
 **Trykk Tools**
 
-![](Images\win_server_mngr_tools.png)
+![](images\win_server_mngr_tools.png)
 
 **Trykk Active Directory Users and Computers**
 
 **Trykk på OU-en den nye brukeren hører til**
 
-![](Images\win_server_aduc.png)
+![](images\win_server_aduc.png)
 
 **Høyreklikk en bruker**
 
@@ -22,7 +22,7 @@
 
 **Fyll ut informasjonen til den nye brukeren**
 
-![](Images\win_server_aduc_user.png)
+![](images\win_server_aduc_user.png)
 
 _Husk å bruke navnestandarden_
 
@@ -43,17 +43,17 @@ _Husk å bruke navnestandarden_
 
 **Fyll resten av A med brukerne som skal bli slettet**
 
-![](Images\win_server_rm_user_csv.png)
+![](images\win_server_rm_user_csv.png)
 
 _eksempel på hvordan det kan se ut_
 
 **Eksporter filen som CSV**
 
-![](Images\excel_export_csv.png)
+![](images\excel_export_csv.png)
 
 **Kjør PowerShell scriptet under**
 
-![](Images\win_server_rm_user_ps1.png)
+![](images\win_server_rm_user_ps1.png)
 
 **Skriv inn filbanen til CSV-filen**
 

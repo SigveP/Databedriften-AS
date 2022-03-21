@@ -121,7 +121,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Velg hva du skal legge inn**
 
-![](Images\pfsense_dashboard_1.png)
+![](images\pfsense_dashboard_1.png)
 
 #### Fjerne
 
@@ -143,7 +143,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk disken** (Den kommer bare opp hvis dashboardet er endret)
 
-![](Images\pfsense_dashboard_5.png)
+![](images\pfsense_dashboard_5.png)
 
 ## Sette opp DHCP
 
@@ -223,7 +223,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Add**
 
-![](Images\pfsense_firewall_1.png)
+![](images\pfsense_firewall_1.png)
 
 **Lag en regel**
 

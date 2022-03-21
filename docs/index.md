@@ -1,4 +1,4 @@
-![](Images\databedriften_as.png)
+![](images\databedriften_as.png)
 
 **Innhold:**
 

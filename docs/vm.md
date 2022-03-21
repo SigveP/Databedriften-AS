@@ -56,7 +56,7 @@
 
 **Trykk Start**
 
-![](Images\virtualbox_start.png)
+![](images\virtualbox_start.png)
 
 ## Gruppere virtuell maskin
 
@@ -86,7 +86,7 @@
 
 **Velg Network på sidemenyen**
 
-![](Images\virtualbox_network_0.png)
+![](images\virtualbox_network_0.png)
 
 **Velg hvilke type nettverk du skal ha**
 
