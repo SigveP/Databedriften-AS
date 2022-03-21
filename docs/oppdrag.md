@@ -172,7 +172,16 @@ Alt hentet fra [10 Must Have IT Security Policies for Every Organization - Adser
 
 > Sjefen din har hørt om Pfsense brannmur /Router og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.
 
-Brukerveiledning for pfsense [her](pfsense.md){:target="_blank"}
+Alle brukerveiledninger for pfsense [her](pfsense.md){:target="_blank"}
+
+**Trinn for lab oppsettet:**
+
+1. [Lag VM](vm.md){:target="_blank"}
+2. [Installer pfsense på vm](pfsense.html#installasjon-p-virtuell-maskin){:target="_blank"}
+3. [Sett opp pfsense](pfsense.html#oppsett-av-pfsense){:target="_blank"}
+4. [Gjør alle innstillingene du vil ha](pfsense.md){:target="_blank"} (link til full pfsense side)
+5. [Lag en ny VM](vm.md){:target="_blank"} (Klient)
+6. Se om alt funker
 
 ## Oppgave 7
 

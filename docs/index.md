@@ -2,9 +2,11 @@
 
 **Innhold:**
 
-- [Basis informasjon](info.md)
+- [Basis server informasjon](info.md)
 
 - [Brukerveiledning](veiledning.md)
+
+- [Navigasjon på siden](navigasjon.md)
 
 **Annet:**
 
