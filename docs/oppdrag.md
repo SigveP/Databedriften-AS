@@ -84,7 +84,7 @@ Databedriften AS sine krav er et nettverk, maskinvare og programvare, behovet de
 
 > Lag en nettverksdokumentasjon (nettverksskisse, IP-plan etc.) for Databedriften AS sitt nettverk. Beskriv også hva de enkelte komponentene sin oppgave i nettverksskissen er.
 
-Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md)
+Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md){:target="_blank"}
 
 ![](Images\2022-03-15-14-02-17-image.png)
 
@@ -108,9 +108,9 @@ Nettverksskissen og IP-plan kan også bli funnet under [Nettverk](nettverk.md)
 > 
 > Lag et forslag til rettigheter for forskjellige brukergrupper. Forklar og dokumenter eventuelle begrensninger.
 
-Loggene til både server og klient kan bli funnet under [logg](logg.md), de bruker mye plass så setter de ikke under her.
+Loggene til både server og klient kan bli funnet under [logg](logg.md){:target="_blank"}, de bruker mye plass så setter de ikke under her.
 
-Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigurasjon](info.html#server-konfigurasjon)
+Serverens konfigurasjon finnes også under [Basis informasjon - Server konfigurasjon](info.html#server-konfigurasjon){:target="_blank"}
 
 | --------------:| ------------------------ |
 | Navn           | DC                       |
@@ -147,7 +147,7 @@ _Dette er bare forslag, serveren er ikke settet opp etter de._
 
 > Lag en brukerveiledning slik at Databedriften AS kan lage egne brukere når det kommer en ny ansatt.
 
-Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-bruker)
+Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-bruker){:target="_blank"}
 
 ## Oppgave 5
 
@@ -172,20 +172,20 @@ Alt hentet fra [10 Must Have IT Security Policies for Every Organization - Adser
 
 > Sjefen din har hørt om Pfsense brannmur /Router og vil at du skal sette opp en liten lab med Pfsense og windows 10 og forklare ham hvordan det helle fungere.
 
-Brukerveiledning for pfsense [her](pfsense.md)
+Brukerveiledning for pfsense [her](pfsense.md){:target="_blank"}
 
 ## Oppgave 7
 
 > Sjefen ber dere om å lage en rutine for hva bedriften skal gjøre med brukere som slutter. Han er også interessert i et script for å gjøre dette i PowerShell.
 
-Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutiner)
+Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutiner){:target="_blank"}
 
-Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner) er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker).
+Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner){:target="_blank"} er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker){:target="_blank"}.
 
 # Oppsummering av arbeid
 
 Lagde en [kravliste](#oppgave-1) fra informasjonen gitt og lagde et [nettverksdiagram](#oppgave-2) og en [IP-plan](#oppgave-2) fra listen.
 
-Brukte [VirtualBox](https://virtualbox.org) til å lage et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren. De Virtuelle maskinene var [logget](logg.md) i samtid.
+Brukte [VirtualBox](https://virtualbox.org) til å lage et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren. De Virtuelle maskinene var [logget](logg.md){:target="_blank"} i samtid.
 
-Lagde [brukerveiledninger](veiledning.md) på hvordan bedriften skal [lage](bruker.html#lage-bruker) og [slette](bruker.html#slette-bruker) brukere.
+Lagde [brukerveiledninger](veiledning.md){:target="_blank"} på hvordan bedriften skal [lage](bruker.html#lage-bruker){:target="_blank"} og [slette](bruker.html#slette-bruker){:target="_blank"} brukere.

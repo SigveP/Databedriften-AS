@@ -1,8 +1,8 @@
 [**< Tilbake til forsiden**](index.md)
 
-# Konfigurasjoner
+## Konfigurasjoner
 
-### Server konfigurasjon
+#### Server konfigurasjon
 
 | --------------:| ------------------------ |
 | Navn           | DC                       |
@@ -13,7 +13,7 @@
 | Tjenester      | AD DS; DNS; DHCP; backup |
 | IPv4 adresse   | 10.0.0.2/8               |
 
-### IP-plan
+#### IP-plan
 
 | -----------:| ------------------------ |
 | Type        | IPv4                     |
@@ -24,9 +24,9 @@
 | DHCP scope  | 10.0.0.100 -> 10.0.0.255 |
 | DHCP subnet | 255.0.0.0                |
 
-# Standarder
+## Standarder
 
-### Navnestandarder
+#### Navnestandarder
 
 | ------------------:| ------------------------------------------------------------------ |
 | Standard           | Hva det er, små bokstaver og understrek i stedet for mellomrom    |
@@ -34,7 +34,7 @@
 | Servere            | Forkortelse av hovedfunksjonen, f.eks. DC for domenekontroller     |
 | Brukere            | Første tre bokstavene i for- og etternavn                          |
 
-# Rutiner
+## Rutiner
 
 | -------------------:| ----------------------------------------------------------- |
-| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.html#slette-bruker) |
+| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.html#slette-bruker){:target="_blank"} |

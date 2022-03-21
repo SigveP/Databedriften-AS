@@ -6,7 +6,7 @@
 
 ## Installasjon på virtuell maskin
 
-Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i VirtualBox. Hvis du ikke vet hvordan man setter opp en virtuell maskin i VirtualBox følg [denne siden](vm.md)
+Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i VirtualBox. Hvis du ikke vet hvordan man setter opp en virtuell maskin i VirtualBox følg [denne siden](vm.md){:target="_blank"}
 
 ### Nedlasting av iso-fil
 
