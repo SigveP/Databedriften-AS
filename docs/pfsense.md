@@ -402,3 +402,31 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Trykk Confirm** (hvis tilgjengelig)
 
 <img src="images/pfsense_update_1.png" title="" alt="" width="513">
+
+### Lese logg
+
+**Gå inn på Status/System Logs**
+
+<img src="images/pfsense_log_0.png" title="" alt="" width="541">
+
+**Velg hvilken logg du vil lese**
+
+**Sorter etter tid** (eller noe annet)
+
+**Les**
+
+<img src="images/pfsense_log_1.png" title="" alt="" width="543">
+
+### Diagnostikk
+
+**Gå inn på Diagnostics/** (hva du vil gjøre)
+
+<img src="images/pfsense_diag_0.png" title="" alt="" width="538">
+
+**Eksempel** (Authentication)
+
+<img src="images/pfsense_diag_1.png" title="" alt="" width="543">
+
+**Eksempel** (System Activity)
+
+<img src="images/pfsense_diag_2.png" title="" alt="" width="546">
