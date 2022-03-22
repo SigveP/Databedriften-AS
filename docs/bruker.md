@@ -53,6 +53,8 @@ _eksempel på hvordan det kan se ut_
 
 **Kjør PowerShell scriptet under**
 
+[Trykk for å laste ned](download/delete_aduser_csv.ps1)
+
 ![](images\win_server_rm_user_ps1.png)
 
 **Skriv inn filbanen til CSV-filen**

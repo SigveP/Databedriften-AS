@@ -193,7 +193,7 @@ Alle rutiner kan bli funnet under [Basis informasjon - Rutiner](info.html#rutine
 
 Rutinen for brukere som slutter i følge [Rutiner](info.html#rutiner){:target="_blank"} er å slette brukerne, brukerveiledningen til sletting av brukere kan du finne [her](bruker.html#slette-bruker){:target="_blank"}.
 
-Scriptet til sletting av brukere er ikke inkludert på serveren så det må skrives eller lastes ned. Et bilde av scriptet er tilgjengelig på [slette siden](bruker.html#slette-bruker){:target="_blank"}.
+Scriptet til sletting av brukere er ikke inkludert på serveren men du kan trykke [her](download/delete_aduser_csv.ps1) for å laste det ned. Et bilde av scriptet er tilgjengelig på [slette siden](bruker.html#slette-bruker){:target="_blank"}.
 
 # Oppsummering av arbeid
 
