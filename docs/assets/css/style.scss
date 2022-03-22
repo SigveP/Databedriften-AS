@@ -14,7 +14,11 @@ nav::-webkit-scrollbar {
     display: none;
 }
 
-#banner {
+#banner .fork {
+    display: none;
+}
+
+#banner #logo {
     display: none;
 }
 
