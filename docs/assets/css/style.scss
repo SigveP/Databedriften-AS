@@ -1,0 +1,23 @@
+---
+---
+
+@import "jekyll-theme-leap-day";
+
+nav {
+    height: 50%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+#banner {
+    display: none;
+}
+
+footer {
+    display: none;
+}
