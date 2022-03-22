@@ -12,7 +12,7 @@ Alle sider untatt forsiden har en `< Tilbake til forsiden` knapp, Trykk den for 
 
 ## Til overskrift
 
-Alle sider med overskrifter har dem synelig på siden, du kan trykk de for å komme dit du skal.
+Alle sider med overskrifter er synelig på sidemenyen, du kan trykk de for å komme dit du skal. Sider med mange overskrifter kan bla på, som f.eks. [pfsense](pfsense.md){:target="_blank"}.
 
 ![](images\pfsense_navigation_2.png)
 
