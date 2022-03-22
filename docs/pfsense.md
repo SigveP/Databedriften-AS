@@ -145,21 +145,79 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 ![](images\pfsense_dashboard_5.png)
 
-## Sette opp DHCP
+### Lese logg
 
-**Gå inn på Services/DHCP Server**
+**Gå inn på Status/System Logs**
 
-<img src="images/pfsense_dhcp_0.png" title="" alt="" width="335">
+<img src="images/pfsense_log_0.png" title="" alt="" width="541">
 
-**Se om DHCP er på**
+**Velg hvilken logg du vil lese**
 
-<img src="images/pfsense_dhcp_2.png" title="" alt="" width="412">
+**Sorter etter tid** (eller noe annet)
 
-**Sett opp innstillingene som du vil ha, kan f.eks. endre scopet**
+**Les**
 
-<img src="images/pfsense_dhcp_1.png" title="" alt="" width="514">
+<img src="images/pfsense_log_1.png" title="" alt="" width="543">
 
-**Trykk Save når du er ferdig**
+### Diagnostikk
+
+**Gå inn på Diagnostics/** (hva du vil gjøre)
+
+<img src="images/pfsense_diag_0.png" title="" alt="" width="538">
+
+**Eksempel** (Authentication)
+
+<img src="images/pfsense_diag_1.png" title="" alt="" width="543">
+
+**Eksempel** (System Activity)
+
+<img src="images/pfsense_diag_2.png" title="" alt="" width="546">
+
+## System
+
+### Sikkerhetskopiering
+
+**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
+
+<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
+
+**Velg hva du vil sikkerhetkopiere**
+
+**Trykk Download configuration as XML**
+
+**Lagre filen et trygt sted**
+
+<img src="images/pfsense_backup.png" title="" alt="" width="551">
+
+### Gjennoppretting
+
+**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
+
+<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
+
+**Bla ned**
+
+**Trykk Browse...**
+
+**Velg en gjennopprettingsfil**
+
+**Velg samme Restore area som filen**
+
+**(Velg kryptering hvis filen er kryptert)**
+
+**Trykk Restore Configuration**
+
+<img src="images/pfsense_restore.png" title="" alt="" width="551">
+
+### Oppgradering
+
+**Gå inn på System/Update/System Update**
+
+<img src="images/pfsense_update_0.png" title="" alt="" width="403">
+
+**Trykk Confirm** (hvis tilgjengelig)
+
+<img src="images/pfsense_update_1.png" title="" alt="" width="513">
 
 ## Lage brukere
 
@@ -215,6 +273,22 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Trykk Save**
 
+## Sette opp DHCP
+
+**Gå inn på Services/DHCP Server**
+
+<img src="images/pfsense_dhcp_0.png" title="" alt="" width="335">
+
+**Se om DHCP er på**
+
+<img src="images/pfsense_dhcp_2.png" title="" alt="" width="412">
+
+**Sett opp innstillingene som du vil ha, kan f.eks. endre scopet**
+
+<img src="images/pfsense_dhcp_1.png" title="" alt="" width="514">
+
+**Trykk Save når du er ferdig**
+
 ## Lage brannmur regler
 
 **Gå inn på Firewall/Rules/** *interface*
@@ -240,6 +314,26 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Trykk Apply Changes**
 
 <img src="images/pfsense_firewall_3.png" title="" alt="" width="522">
+
+## Vidresending av port med NAT
+
+**Gå inn på Firewall/NAT/Port Forward**
+
+**Trykk Add**
+
+<img src="images/pfsense_nat_0.png" title="" alt="" width="512">
+
+**Velg innstillingen du vil ha**
+
+**Eksempel**
+
+<img src="images/pfsense_nat_2.png" title="" alt="" width="510">
+
+**Lagre**
+
+**Trykk Apply Changes**
+
+<img src="images/pfsense_nat_1.png" title="" alt="" width="509">
 
 ## Captive Portal
 
@@ -282,26 +376,6 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Se om du kan logge inn**
 
 <img src="images/pfsense_captive_portal_8.png" title="" alt="" width="518">
-
-## Vidresending av port med NAT
-
-**Gå inn på Firewall/NAT/Port Forward**
-
-**Trykk Add**
-
-<img src="images/pfsense_nat_0.png" title="" alt="" width="512">
-
-**Velg innstillingen du vil ha**
-
-**Eksempel**
-
-<img src="images/pfsense_nat_2.png" title="" alt="" width="510">
-
-**Lagre**
-
-**Trykk Apply Changes**
-
-<img src="images/pfsense_nat_1.png" title="" alt="" width="509">
 
 ## L2TP/IPsec
 
@@ -356,77 +430,3 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Trykk Apply Changes**
 
 <img src="images/pfsense_ipsec_4.png" title="" alt="" width="577">
-
-## System
-
-### Sikkerhetskopiering
-
-**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
-
-<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
-
-**Velg hva du vil sikkerhetkopiere**
-
-**Trykk Download configuration as XML**
-
-**Lagre filen et trygt sted**
-
-<img src="images/pfsense_backup.png" title="" alt="" width="551">
-
-### Gjennoppretting
-
-**Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
-
-<img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
-
-**Bla ned**
-
-**Trykk Browse...**
-
-**Velg en gjennopprettingsfil**
-
-**Velg samme Restore area som filen**
-
-**(Velg kryptering hvis filen er kryptert)**
-
-**Trykk Restore Configuration**
-
-<img src="images/pfsense_restore.png" title="" alt="" width="551">
-
-### Oppgradering
-
-**Gå inn på System/Update/System Update**
-
-<img src="images/pfsense_update_0.png" title="" alt="" width="403">
-
-**Trykk Confirm** (hvis tilgjengelig)
-
-<img src="images/pfsense_update_1.png" title="" alt="" width="513">
-
-### Lese logg
-
-**Gå inn på Status/System Logs**
-
-<img src="images/pfsense_log_0.png" title="" alt="" width="541">
-
-**Velg hvilken logg du vil lese**
-
-**Sorter etter tid** (eller noe annet)
-
-**Les**
-
-<img src="images/pfsense_log_1.png" title="" alt="" width="543">
-
-### Diagnostikk
-
-**Gå inn på Diagnostics/** (hva du vil gjøre)
-
-<img src="images/pfsense_diag_0.png" title="" alt="" width="538">
-
-**Eksempel** (Authentication)
-
-<img src="images/pfsense_diag_1.png" title="" alt="" width="543">
-
-**Eksempel** (System Activity)
-
-<img src="images/pfsense_diag_2.png" title="" alt="" width="546">
