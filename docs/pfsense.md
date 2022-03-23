@@ -191,6 +191,8 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 ### Gjennoppretting
 
+#### webconfigurator
+
 **Gå inn på Diagnosics/Backup & Restore/Backup & Restore**
 
 <img src="images/pfsense_backup_and_restore.png" title="" alt="" width="545">
@@ -208,6 +210,20 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Trykk Restore Configuration**
 
 <img src="images/pfsense_restore.png" title="" alt="" width="551">
+
+**ISO**
+
+**Sett inn pfsense iso-filen**
+
+<img src="images/pfsense_recover_1.png" title="" alt="" width="514">
+
+**Velg Recover config.xml**
+
+<img src="images/pfsense_recover_0.png" title="" alt="" width="517">
+
+**Velg en partisjon med en config.xml**
+
+<img src="images/pfsense_recover_2.png" title="" alt="" width="510">
 
 ### Oppgradering
 
@@ -430,3 +446,83 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 **Trykk Apply Changes**
 
 <img src="images/pfsense_ipsec_4.png" title="" alt="" width="577">
+
+## Pakkebehandlig
+
+**Gå inn på System/Package Manager**
+
+<img src="images/pfsense_package_0.png" title="" alt="" width="566">
+
+**Gå inn på Available Packages**
+
+**Søk etter hva du skal ha**
+
+**Trykk Install**
+
+<img src="images/pfsense_package_1.png" title="" alt="" width="567">
+
+**Vent til pakken blir installert**
+
+<img src="images/pfsense_package_2.png" title="" alt="" width="566">
+
+**Gå til Installed Packages**
+
+**Se om pakken ligger der**
+
+<img src="images/pfsense_package_3.png" title="" alt="" width="561">
+
+## Web filtrering
+
+**Installer pakkene squid og squidGuard med [Package Manager](#pakkebehandling)**
+
+**Gå inn på Services/Squid Proxy Server**
+
+_Blir videresendt til Package/Proxy Server: General Settings/General_
+
+<img src="images/pfsense_webfilter_0.png" title="" alt="" width="565">
+
+**Velg Enable Squid Proxy**
+
+**Velg Enable Access Logging**
+
+<img src="images/pfsense_webfilter_1.png" title="" alt="" width="562">
+
+**Trykk Save**
+
+**Gå inn på Services/SquidGuard Proxy Filter/Blacklist**
+
+_Blir videresendt til Package/SquidGuard/Blacklists_
+
+**Legg til adressen til en liste** (Veldig vanskelig å finne en som er tilgjengelig)
+
+**Trykk Download**
+
+<img title="" src="images/pfsense_webfilter_2.png" alt="" width="565">
+
+**Gå inn på Common ACL**
+
+**Sett opp reglene du vil ha**
+
+**Velg Log**
+
+**Trykk Save**
+
+<img src="images/pfsense_webfilter_3.png" title="" alt="" width="563">
+
+**Gjør det samme inne på Group ACL** (hvis en gruppe skal ha andre tilattelser)
+
+**Gå til General settings**
+
+**Velg Enable**
+
+<img src="images/pfsense_webfilter_4.png" title="" alt="" width="561">
+
+**Skru på alle loggene og andre innstillinger du vil ha**
+
+<img src="images/pfsense_webfilter_5.png" title="" alt="" width="561">
+
+**Trykk Save**
+
+**Trykk Apply**
+
+<img src="images/pfsense_webfilter_6.png" title="" alt="" width="557">
