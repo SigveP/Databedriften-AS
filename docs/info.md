@@ -37,4 +37,5 @@
 ## Rutiner
 
 | -------------------:| ----------------------------------------------------------- |
-| Brukere som slutter | Brukere som slutter skal bli [slettet fra AD DS](bruker.html#slette-bruker){:target="_blank"} |
+| Brukere som starter | Skal bli laget på måten beskrevet [her](bruker.html#lage-bruker){:target="_blank"} |
+| Brukere som slutter | Skal bli slettet på måten [her](bruker.html#slette-bruker){:target="_blank"} |

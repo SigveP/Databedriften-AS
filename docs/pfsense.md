@@ -297,13 +297,19 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 **Se om DHCP er på**
 
-<img src="images/pfsense_dhcp_2.png" title="" alt="" width="412">
+<img src="images/pfsense_dhcp_1.png" title="" alt="" width="412">
 
-**Sett opp innstillingene som du vil ha, kan f.eks. endre scopet**
+**Sett opp innstillingene som du vil ha**
 
-<img src="images/pfsense_dhcp_1.png" title="" alt="" width="514">
+**Eksempel**
 
-**Trykk Save når du er ferdig**
+* <img src="images/pfsense_dhcp_2.png" title="" alt="" width="550">
+
+* <img src="images/pfsense_dhcp_3.png" title="" alt="" width="550">
+
+* <img src="images/pfsense_dhcp_4.png" title="" alt="" width="552">
+
+**Trykk Save**
 
 ## Lage brannmur regler
 
@@ -325,13 +331,13 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 * <img src="images/pfsense_firewall_2.png" title="" alt="" width="494">
 
-**Trykk save**
+**Trykk Save**
 
 **Trykk Apply Changes**
 
 <img src="images/pfsense_firewall_3.png" title="" alt="" width="522">
 
-## Vidresending av port med NAT
+## Videresending av port med NAT
 
 **Gå inn på Firewall/NAT/Port Forward**
 
@@ -471,7 +477,7 @@ Her skal jeg vise hvordan man installerer pfsense på en virtuell maskin i Virtu
 
 <img src="images/pfsense_package_3.png" title="" alt="" width="561">
 
-## Web filtrering
+## Webfiltrering
 
 **Installer pakkene squid og squidGuard med [Package Manager](#pakkebehandling)**
 

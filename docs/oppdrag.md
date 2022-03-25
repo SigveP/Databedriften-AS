@@ -176,14 +176,47 @@ Brukerveiledningen for laging av brukere kan bli funnet [her](bruker.html#lage-b
 
 Alle brukerveiledninger for pfsense [her](pfsense.md){:target="_blank"}
 
-**Trinn for lab oppsettet:**
+**pfsense-installasjon i et virtuelt miljø kan bli funnet [her](pfsense.html#installasjon-p-virtuell-maskin){:target="_blank"}**
 
-1. [Lag VM](vm.md){:target="_blank"}
-2. [Installer pfsense på vm](pfsense.html#installasjon-p-virtuell-maskin){:target="_blank"}
-3. [Sett opp pfsense](pfsense.html#oppsett-av-pfsense){:target="_blank"}
-4. [Gjør alle innstillingene du vil ha](pfsense.md){:target="_blank"} (link til full pfsense side)
-5. [Lag en ny VM](vm.md){:target="_blank"} (Klient)
-6. Se om alt funker
+**Administrasjon i pfsense**
+
+* [Dashboard](pfsense.html#endre-dashboard){:target="_blank"}
+
+* [Diagnostikk](pfsense.html#diagnostikk){:target="_blank"}
+
+* [Logg](pfsense.html#lese-logg){:target="_blank"}
+
+* [Sikkerhetkopiering](pfsense.html#sikkerhetskopiering){:target="_blank"}
+
+* [Gjennoppretting](pfsense.html#gjennoppretting){:target="_blank"}
+
+* [Oppgradering](pfsense.html#oppgradering){:target="_blank"}
+
+**Grunnleggende brukerbehandlig**
+
+* [Lage brukere](pfsense.html#lage-brukere){:target="_blank"}
+
+* [Lage grupper](pfsense.html#lage-grupper){:target="_blank"}
+
+**DHCP-konfigurasjon kan bli funnet [her](pfsense.html#sette-opp-dhcp){:target="_blank"}** 
+
+**Brannmur regler kan bli funnet [her](pfsense.html#lage-brannmur-regler){:target="_blank"}**
+
+**Videresending av port kan bli funnet [her](pfsense.html#videresending-av-port-med-nat){:target="_blank"}**
+
+**Captive portal kan bli funnet [her](pfsense.html#captive-portal){:target="_blank"}**
+
+**VPN pfsense støtter**
+
+* OpenVPN
+
+* L2TP
+
+* IPSec
+
+**Pakkebehandlig kan bli funnet [her](pfsense.html#pakkebehandling){:target="_blank"}**
+
+**Webfiltrering kan bli funnet [her](pfsense.html#webfiltrering){:target="_blank"}**
 
 ## Oppgave 7
 
@@ -201,4 +234,6 @@ Lagde en [kravliste](#oppgave-1) fra informasjonen gitt og lagde et [nettverksdi
 
 Brukte [VirtualBox](https://virtualbox.org) til å lage et par virtuelle maskiner, den første er en server som er installert med Windows server 2019 og har tjenestene AD DS, DNS, DHCP og backup, den andre er en klientmaskin som er installert med Windows 10 og er koblet til domenet til serveren. De Virtuelle maskinene var [logget](logg.md){:target="_blank"} i samtid.
 
-Lagde [brukerveiledninger](veiledning.md){:target="_blank"} på hvordan bedriften skal [lage](bruker.html#lage-bruker){:target="_blank"}, [slette](bruker.html#slette-bruker){:target="_blank"} brukere og hvordan kan sette opp en liten [pfsense](pfsense.md){:target="_blank"} lab i [VirtualBox](vm.md){:target="_blank"}.
+Lagde [brukerveiledninger](veiledning.md){:target="_blank"} på hvordan bedriften skal [lage](bruker.html#lage-bruker){:target="_blank"}, [slette](bruker.html#slette-bruker){:target="_blank"} brukere og hvordan man kan sette opp en liten [pfsense](pfsense.md){:target="_blank"} lab i [VirtualBox](vm.md){:target="_blank"}.
+
+Fant på en [rutine](info.html#rutiner){:target="_blank"} for brukere som slutter og lagde et script som utfører mesteparten av [rutinen](bruker.html#slette-bruker){:target="_blank"}.
